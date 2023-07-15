@@ -4,14 +4,14 @@
     "private": true,
     "repository": {
         "type": "git",
-        "directory": "git+https://github.com/lydianlights/yet-another-factory-planner.git"
+        "directory": "git+https://github.com/BennyExtreme/yet-another-factory-planner.git"
     },
-    "homepage": "https://www.satisfactory-planner.net",
+    "homepage": "https://satisfactory.bennyextreme.tk/",
     "scripts": {
         "start": "craco start",
         "build": "craco build",
         "staging": "env-cmd -f .env.staging npm start",
-        "predeploy": "npm run build && echo www.satisfactory-planner.net > ./build/CNAME",
+        "predeploy": "npm run build && echo satisfactory.bennyextreme.tk > ./build/CNAME",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
