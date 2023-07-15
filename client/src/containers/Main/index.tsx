@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { AppShell, Header, Container, useMantineTheme } from '@mantine/core';
 import SiteHeader from './SiteHeader';
 import ProductionPlanner from '../ProductionPlanner';
-import PaypalButton from '../../components/PaypalButton';
 import ExternalLink from '../../components/ExternalLink';
 import ErrorBoundary from '../ErrorBoundary';
 
@@ -20,10 +19,9 @@ const Main = () => {
         </ErrorBoundary>
         <Footer>
           <FooterContent>
-            Made with ♥ by <ExternalLink href='https://github.com/lydianlights'>LydianLights</ExternalLink> -
-            Questions or bugs? File an <ExternalLink href='https://github.com/lydianlights/yet-another-factory-planner/issues'>issue on github</ExternalLink>
+            Made with ♥ by <ExternalLink href='https://github.com/lydianlights'>LydianLights</ExternalLink> - <ExternalLink href='https://github.com/BennyExtreme'>BennyExtreme</ExternalLink> fork -
+            Questions or bugs? File an <ExternalLink href='https://github.com/BennyExtreme/yet-another-factory-planner/issues'>issue on github</ExternalLink>
           </FooterContent>
-          <PaypalButton />
         </Footer>
       </MainContainer>
     </AppShell>

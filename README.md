@@ -1,4 +1,7 @@
 # Satisfactory Planner
+Made with ♥ by [LydianLights](https://github.com/lydianlights/) - [BennyExtreme](https://github.com/BennyExtreme/) fork
+
+# Index
 * [Info](#info)
 * [Site](#site)
 * [Features](#features)
