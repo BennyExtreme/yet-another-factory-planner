@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.0c4d6a7f.css",
-    "main.js": "/static/js/main.9930e19b.js",
+    "main.js": "/static/js/main.63ca02a2.js",
     "static/media/satisfactory_logo_full_color_small.png": "/static/media/satisfactory_logo_full_color_small.da5e97839853f66bc78e.png",
     "static/media/stripe-bg.png": "/static/media/stripe-bg.ddc4de7e84196ac2e0f4.png",
     "index.html": "/index.html",
-    "main.9930e19b.js.map": "/static/js/main.9930e19b.js.map"
+    "main.63ca02a2.js.map": "/static/js/main.63ca02a2.js.map"
   },
   "entrypoints": [
     "static/css/main.0c4d6a7f.css",
-    "static/js/main.9930e19b.js"
+    "static/js/main.63ca02a2.js"
   ]
 }
