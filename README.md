@@ -74,7 +74,7 @@ Setup the API for the application:
     **Value**: `verbose`
   * **Name**: `PARSE_APP_ID`
 
-    **Value**: Insert the value that you wrote down previously (in the `Application ID ` field)
+    **Value**: Insert the value that you wrote down previously (in the `Application ID` field)
   * **Name**: `PARSE_MASTER_KEY`
 
     **Value**: Insert the value that you wrote down previously (in the `Master key` field)
