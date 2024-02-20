@@ -16,7 +16,7 @@ Powered by [satisfactory-docs-parser](https://github.com/lydianlights/satisfacto
 
 # Site
 
-https://satisfactory.bennyextreme.tk/
+https://bennyextreme.github.io/yet-another-factory-planner/
 
 # Features
 
@@ -68,7 +68,7 @@ Setup the API for the application:
     **Value**: `8000`
   * **Name**: `CLIENT_APP_URL`
 
-    **Value**: `https://<username>.github.io/yet-another-factory-planner` (If you have set a custom domain in the `Pages` settings of your repository then use that)
+    **Value**: `https://<username>.github.io` (If you have set a custom domain in the `Pages` settings of your repository then use that)
   * **Name**: `LOG_LEVEL`
 
     **Value**: `verbose`
@@ -92,8 +92,8 @@ Link your client (frontend) to your API (backend):
 * Open the repository folder `cd yet-another-factory-planner`
 * Open the client folder `cd client`
 * Install all the requirements using `npm i`
-* Open `package.json` and modify the `homepage` value (`https://satisfactory.bennyextreme.tk/`) to `https://<username>.github.io/yet-another-factory-planner/` (If you have set a custom domain in the `Pages` settings of your repository then use that)
-* If you don't have a custom domain remove the ` && echo satisfactory.bennyextreme.tk > ./build/CNAME` part from the `predeploy` value
+* Open `package.json` and modify the `homepage` value (`https://bennyextreme.github.io/yet-another-factory-planner/`) to `https://<username>.github.io/yet-another-factory-planner/` (If you have set a custom domain in the `Pages` settings of your repository then use that)
+* If you have a custom domain set the `predeploy` value to `npm run build && echo <yourDomain> > ./build/CNAME` (e.g. `npm run build && echo satisfactory.example.com > ./build/CNAME`)
 * Copy the file `.env.example` to `.env`
 * Open it and modify the `REACT_APP_API_BASE_URL` value to the API link you wrote down previously from the Back4app application
 * Re-open your terminal in the client folder and execute `npm run deploy`
