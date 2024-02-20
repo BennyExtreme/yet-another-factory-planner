@@ -6,12 +6,12 @@
         "type": "git",
         "directory": "git+https://github.com/BennyExtreme/yet-another-factory-planner.git"
     },
-    "homepage": "https://satisfactory.bennyextreme.tk/",
+    "homepage": "https://bennyextreme.github.io/yet-another-factory-planner/",
     "scripts": {
         "start": "craco start",
         "build": "craco build",
         "staging": "env-cmd -f .env.staging npm start",
-        "predeploy": "npm run build && echo satisfactory.bennyextreme.tk > ./build/CNAME",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
